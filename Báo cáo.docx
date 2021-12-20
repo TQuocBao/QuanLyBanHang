@@ -16,7 +16,10 @@ Tuần 2 : - Công việc hoàn thành
                   - Hiển thị chi tiết thông tin cụ thể của sản phẩm khi xem chi tiết sản phẩm ở ngoài Trang Chủ 
          + Tạo class CartItem 
                   - Hiển thị thông tin chi tiết của mỗi sản phẩm trong [giỏ hàng]
-         + Tạo Controller giỏ hàng   |
-                                     |  ==> Đang thực hiện
-         + Thiết kế trang giỏ hàng   |
-         
+         + Tạo Controller giỏ hàng                                       |
+         + Thiết kế trang giỏ hàng                                       |  
+         + Thêm các action cơ bản                                        |
+         + Xử lí đặt hàng ( Có thể )                                     |  ==> Đang thực hiện
+                  - Gửi thông tin về số điện thoại của khách hàng        |              
+                  - Gửi thông tin đặt hàng về Email                      |
+         (...)
