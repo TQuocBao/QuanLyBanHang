@@ -10,12 +10,12 @@ Tuần 2 : - Công việc hoàn thành
          + Các chức năng cơ bản của các Form  đã xong ( Thêm , sửa , xóa ) 
                ( Form : Khách hàng , Sản phẩm , Loại Sản phẩm , Nhân viên ) [1]
          + Hiệu chỉnh lại form Trang chủ 
-                  - Hiển thị danh sách tất cả sản phẩm 
+                  - Hiển thị danh sách tất cả sản phẩm ( Có phân trang ) 
                   - Hiển thị hình ảnh của từng loại sản phẩm 
          + Thiết kế form Chi tiết sản phẩm :
                   - Hiển thị chi tiết thông tin cụ thể của sản phẩm khi xem chi tiết sản phẩm ở ngoài Trang Chủ 
          + Tạo class CartItem 
-                  - Hiển thị thông tin chi tiết của mỗi sản phẩm trong giỏ hàng
+                  - Hiển thị thông tin chi tiết của mỗi sản phẩm trong [giỏ hàng]
          + Tạo Controller giỏ hàng   |
                                      |  ==> Đang thực hiện
          + Thiết kế trang giỏ hàng   |
