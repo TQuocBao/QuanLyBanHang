@@ -2,7 +2,7 @@ Thành viên : Trần Quốc Bảo , Đặng Như Thính
 Đề tài : Quản lý bán hàng ( Online ) 
 Tuần 2 : - Công việc hoàn thành 
          +  Database ( Đã xong )
-         +  Tạo ADO.NET Entity Data Model trong Model liên kết với database => Tạo mô hình dữ liệu   
+         +  Tạo ADO.NET Entity Data Model trong Model liên kết với database ( kết nối bằng entity framework )
          +  Hoàn thiện Layout
          + Tạo các Controller 
          + Tạo thư mục Images chứa các hình ảnh của các loại sản phẩm trong thư mục trong ứng dụng
