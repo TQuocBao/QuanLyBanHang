@@ -33,5 +33,5 @@ Tuần 2 : - Công việc hoàn thành
                                     + E cung cấp tài khoản (địa chỉ email google) và password
                                              - Tạo xác thực kết nối 
                                     + Bật tính năng cho phép ứng dụng kém an toàn truy cập trong cài đặt gmail để SMTP có thể truy cập 
-                           • Tạo SmtpClient kết nối đến smtp.gmail.com
+
          (...)
