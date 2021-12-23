@@ -10,16 +10,28 @@ Tuần 2 : - Công việc hoàn thành
          + Các chức năng cơ bản của các Form  đã xong ( Thêm , sửa , xóa ) 
                ( Form : Khách hàng , Sản phẩm , Loại Sản phẩm , Nhân viên ) [1]
          + Hiệu chỉnh lại form Trang chủ 
-                  - Hiển thị danh sách tất cả sản phẩm ( Có phân trang ) 
+                  - Hiển thị danh sách tất cả sản phẩm 
                   - Hiển thị hình ảnh của từng loại sản phẩm 
          + Thiết kế form Chi tiết sản phẩm :
                   - Hiển thị chi tiết thông tin cụ thể của sản phẩm khi xem chi tiết sản phẩm ở ngoài Trang Chủ 
          + Tạo class CartItem 
                   - Hiển thị thông tin chi tiết của mỗi sản phẩm trong [giỏ hàng]
-         + Tạo Controller giỏ hàng                                       |
-         + Thiết kế trang giỏ hàng                                       |  
-         + Thêm các action cơ bản                                        |
-         + Xử lí đặt hàng ( Có thể )                                     |  ==> Đang thực hiện
-                  - Gửi thông tin về số điện thoại của khách hàng        |              
-                  - Gửi thông tin đặt hàng về Email                      |
+         + Tạo Controller giỏ hàng                                       
+         + Thiết kế trang giỏ hàng   
+                  - Hiển thị thông tin chi tiết của từng sản phẩm trong giỏ hàng 
+                  - Hiển thị tổng tiền của tất cả sản phẩm trong giỏ hàng
+         + Thêm các action cơ bản                                        
+                  - Có thể xóa sản phẩm , điều chỉnh số lượng sản phẩm trong giỏ hàng
+         + Xử lí đặt hàng                  
+                  - Gửi thông tin đặt hàng về Email khách hàng
+                           • Sử dụng lớp SMTPClient gửi gmail thông qua giao thức SMTP ( chuyển Email tới máy chủ SMTP để máy chủ thực hiện việc chuyển Email đến địa chỉ người nhận)
+                           • Em sử dụng gmail của mình ( nhân viên or quản lí ) để gửi gmail cho khách hàng
+                           • Dùng đối tượng MailMessage để viết nội dung thông tin đặt hàng 
+                                    + Dùng vòng lặp foreach để duyệt hết các sản phẩm có trong giỏ hàng 
+                           • Tạo một SmtpClient kết nối đến Server SMTP tại: smtp.gmail.com và kết nối qua cổng 587 ( Gmail có địa chỉ server SMTP tại: smtp.gmail.com ) để  gửi mail 
+                                    + Kích hoạt kết nối an toàn  Ssl
+                                    + E cung cấp tài khoản (địa chỉ email google) và password
+                                             - Tạo xác thực kết nối 
+                                    + Bật tính năng cho phép ứng dụng kém an toàn truy cập trong cài đặt gmail để SMTP có thể truy cập 
+                           • Tạo SmtpClient kết nối đến smtp.gmail.com
          (...)
