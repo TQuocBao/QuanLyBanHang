@@ -25,7 +25,7 @@ Tuần 2 : - Công việc hoàn thành
          + Xử lí đặt hàng                  
                   - Gửi thông tin đặt hàng về Email khách hàng
                            • Sử dụng lớp SMTPClient gửi gmail thông qua giao thức SMTP ( chuyển Email tới máy chủ SMTP để máy chủ thực hiện việc chuyển Email đến địa chỉ người nhận)
-                           • Em sử dụng gmail của mình ( nhân viên or quản lí ) để gửi gmail cho khách hàng
+                           • Em sử dụng gmail của cửa hàng ( gmail trắng ) để nhân viên gửi gmail cho khách hàng
                            • Dùng đối tượng MailMessage để viết nội dung thông tin đặt hàng 
                                     + Dùng vòng lặp foreach để duyệt hết các sản phẩm có trong giỏ hàng 
                            • Tạo một SmtpClient kết nối đến Server SMTP tại: smtp.gmail.com và kết nối qua cổng 587 ( Gmail có địa chỉ server SMTP tại: smtp.gmail.com ) để  gửi mail 
