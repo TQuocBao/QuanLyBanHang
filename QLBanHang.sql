@@ -1,6 +1,6 @@
-CREATE DATABASE QLBANHANG
+CREATE DATABASE QuanLyBANHANG
 go
-USE QLBANHANG
+USE QuanLyBANHANG
 go
 
 CREATE TABLE NhanVien
@@ -33,7 +33,7 @@ CREATE TABLE HoaDon
 go
 CREATE TABLE LoaiSP
 (
-	MaLoaiSP nvarchar(50) PRIMARY KEY,
+	MaLoaiSP int PRIMARY KEY,
 	TenLoaiSP nvarchar(50)
 )
 go
@@ -43,7 +43,7 @@ CREATE TABLE SanPham
 	TenSP nvarchar(50),
 	Donvitinh nvarchar(50),
 	Dongia int,
-	MaLoaiSP nvarchar(50) FOREIGN KEY REFERENCES LoaiSP(MaLoaiSP),
+	MaLoaiSP int FOREIGN KEY REFERENCES LoaiSP(MaLoaiSP),
 	HinhSP nvarchar(500)
 )
 go
@@ -56,3 +56,9 @@ CREATE TABLE CTHD
 	PRIMARY KEY( MaHD, MaSP)
 )
 go
+CREATE TABLE Users
+(
+	idUser int,
+	Email varchar(50),
+	Password varchar(50)
+)
