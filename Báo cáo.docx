@@ -22,7 +22,7 @@ Tuần 2 : - Công việc hoàn thành
                   - Hiển thị tổng tiền của tất cả sản phẩm trong giỏ hàng
          + Thêm các action cơ bản                                        
                   - Có thể xóa sản phẩm , điều chỉnh số lượng sản phẩm trong giỏ hàng
-         + Xử lí đặt hàng                  
+Tuần 3   + Xử lí đặt hàng                  
                   - Gửi thông tin đặt hàng về Email khách hàng
                            • Sử dụng lớp SMTPClient gửi gmail thông qua giao thức SMTP ( chuyển Email tới máy chủ SMTP để máy chủ thực hiện việc chuyển Email đến địa chỉ người nhận)
                            • Sử dụng gmail của cửa hàng ( gmail trắng ) để nhân viên gửi gmail cho khách hàng
