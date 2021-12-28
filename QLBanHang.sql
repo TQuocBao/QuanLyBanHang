@@ -56,9 +56,9 @@ CREATE TABLE CTHD
 	PRIMARY KEY( MaHD, MaSP)
 )
 go
-CREATE TABLE Users
+CREATE TABLE Logins
 (
-	idUser int,
+	idUser int Null,
 	Email varchar(50),
 	Password varchar(50)
 )
