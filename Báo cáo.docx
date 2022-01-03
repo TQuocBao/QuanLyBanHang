@@ -35,3 +35,11 @@ Tuần 3   + Xử lí đặt hàng
                                     + Bật tính năng cho phép ứng dụng kém an toàn truy cập trong cài đặt gmail để SMTP có thể truy cập 
 
          (...)
+         + Tạo menu các loại Sản phẩm
+                  - Hiển thỉ các loại sản phẩm trong bảng LoaiSP
+                           • Tạo menu ( Sử dụng Dropdown )
+                  - Sau khi chọn loại sản phẩm chỉ hiển thị danh sách tất cả các sản phẩm của loại sản phẩm vừa chọn
+                           • Dùng đối tượng HashTable
+Tuần 4   + Chức năng đăng nhập , đăng kí 
+         + Đăng  xuất huỷ session và cooki quay về trang đăng nhập.
+         + Hiểu chỉnh lại trang sản phẩm 
