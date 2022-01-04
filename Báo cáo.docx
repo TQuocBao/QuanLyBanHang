@@ -42,4 +42,11 @@ Tuần 3   + Xử lí đặt hàng
                            • Dùng đối tượng HashTable
 Tuần 4   + Chức năng đăng nhập , đăng kí 
          + Đăng  xuất huỷ session và cooki quay về trang đăng nhập.
-         + Hiểu chỉnh lại trang sản phẩm 
+         + Hiệu chỉnh lại trang sản phẩm 
+                  - Thiết kế trang danh mục sản phẩm
+                           • Hiệu chỉnh trang thêm , sửa , sản phẩm
+         + Hiểu chỉnh trang hóa đơn
+                  - Thiết kế trang hóa đơn sản phẩm
+                  - Thiết kế trang chi tiết hóa đơn
+                           
+                  
